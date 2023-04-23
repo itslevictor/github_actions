@@ -28,8 +28,7 @@ jobs:
 
       # Executa um único comando usando o shell runners
       - name: executando docker 
-        run: docker run docker/whalesay cowsay DEVOPS IT TALENT
-
+        run: docker run docker/whalesay cowsay -> ACTION DO VICTOR <-
       # Executa um conjunto de comandos usando o shell runners
       - name: Run a multi-line script
         run: |
